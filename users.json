@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Jovan",
+      "email": "jovanp@gmail.com",
+      "password": "Jovan123",
+      "role": "student"
+    },
+    {
+      "id": "2",
+      "username": "Goran",
+      "email": "gorantosic@gmail.com",
+      "password": "Goran123",
+      "role": "profesor"
+    },
+    {
+      "id": "4",
+      "username": "Tamara",
+      "email": "tamarav@gmail.com",
+      "password": "Tamara123",
+      "role": "asistent"
+    },
+    {
+      "id": "3",
+      "username": "Milica",
+      "email": "milic@gmail.com",
+      "password": "Milica123",
+      "role": "student"
+    }
+  ]
+}

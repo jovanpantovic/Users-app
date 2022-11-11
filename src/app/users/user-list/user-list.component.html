@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success" (click)="onNewUser()">New User</button>
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <a style="cursor: pointer" class="list-group-item clearfix" *ngFor="let user of users" [routerLink]="[user.id]" routerLinkActive>
+      <div class="pull-left">
+        <h4 class="list-group-item-heading">{{ user.username }}</h4>
+        <p class="list-group-item-text">{{ user.email }}</p>
+      </div>
+    </a>
+  </div>
+</div>
